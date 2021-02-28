@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\client\snd_dma.c" />
+    <ClCompile Include="..\..\client\snd_mem.c" />
+    <ClCompile Include="..\..\client\snd_mix.c" />
+    <ClCompile Include="..\..\client\snd_stream.c" />
+    <ClCompile Include="..\..\client\x86.c" />
+    <ClCompile Include="..\..\game\m_flash.c" />
+    <ClCompile Include="..\..\game\q_shared.c" />
+    <ClCompile Include="..\..\qcommon\cmd.c" />
+    <ClCompile Include="..\..\qcommon\cmodel.c" />
+    <ClCompile Include="..\..\qcommon\common.c" />
+    <ClCompile Include="..\..\qcommon\crc.c" />
+    <ClCompile Include="..\..\qcommon\cvar.c" />
+    <ClCompile Include="..\..\qcommon\files.c" />
+    <ClCompile Include="..\..\qcommon\md4.c" />
+    <ClCompile Include="..\..\qcommon\net_chan.c" />
+    <ClCompile Include="..\..\qcommon\pmove.c" />
+    <ClCompile Include="..\..\qcommon\wildcard.c" />
+    <ClCompile Include="..\..\renderer\r_alias.c" />
+    <ClCompile Include="..\..\renderer\r_alias_md2.c" />
+    <ClCompile Include="..\..\renderer\r_alias_misc.c" />
+    <ClCompile Include="..\..\renderer\r_arb_program.c" />
+    <ClCompile Include="..\..\renderer\r_backend.c" />
+    <ClCompile Include="..\..\renderer\r_beam.c" />
+    <ClCompile Include="..\..\renderer\r_bloom.c" />
+    <ClCompile Include="..\..\renderer\r_draw.c" />
+    <ClCompile Include="..\..\renderer\r_entity.c" />
+    <ClCompile Include="..\..\renderer\r_fog.c" />
+    <ClCompile Include="..\..\renderer\r_fragment.c" />
+    <ClCompile Include="..\..\renderer\r_glstate.c" />
+    <ClCompile Include="..\..\renderer\r_image.c" />
+    <ClCompile Include="..\..\renderer\r_light.c" />
+    <ClCompile Include="..\..\renderer\r_main.c" />
+    <ClCompile Include="..\..\renderer\r_misc.c" />
+    <ClCompile Include="..\..\renderer\r_model.c" />
+    <ClCompile Include="..\..\renderer\r_particle.c" />
+    <ClCompile Include="..\..\renderer\r_sky.c" />
+    <ClCompile Include="..\..\renderer\r_sprite.c" />
+    <ClCompile Include="..\..\renderer\r_surface.c" />
+    <ClCompile Include="..\..\renderer\r_vlights.c" />
+    <ClCompile Include="..\..\renderer\r_warp.c" />
+    <ClCompile Include="..\..\server\sv_ccmds.c" />
+    <ClCompile Include="..\..\server\sv_ents.c" />
+    <ClCompile Include="..\..\server\sv_game.c" />
+    <ClCompile Include="..\..\server\sv_init.c" />
+    <ClCompile Include="..\..\server\sv_main.c" />
+    <ClCompile Include="..\..\server\sv_send.c" />
+    <ClCompile Include="..\..\server\sv_user.c" />
+    <ClCompile Include="..\..\server\sv_world.c" />
+    <ClCompile Include="..\..\ui\ui_backend.c" />
+    <ClCompile Include="..\..\ui\ui_game.c" />
+    <ClCompile Include="..\..\ui\ui_game_credits.c" />
+    <ClCompile Include="..\..\ui\ui_game_saveload.c" />
+    <ClCompile Include="..\..\ui\ui_main.c" />
+    <ClCompile Include="..\..\ui\ui_mp_addressbook.c" />
+    <ClCompile Include="..\..\ui\ui_mp_dmoptions.c" />
+    <ClCompile Include="..\..\ui\ui_mp_download.c" />
+    <ClCompile Include="..\..\ui\ui_mp_joinserver.c" />
+    <ClCompile Include="..\..\ui\ui_mp_playersetup.c" />
+    <ClCompile Include="..\..\ui\ui_mp_startserver.c" />
+    <ClCompile Include="..\..\ui\ui_multiplayer.c" />
+    <ClCompile Include="..\..\ui\ui_options.c" />
+    <ClCompile Include="..\..\ui\ui_options_controls.c" />
+    <ClCompile Include="..\..\ui\ui_options_effects.c" />
+    <ClCompile Include="..\..\ui\ui_options_interface.c" />
+    <ClCompile Include="..\..\ui\ui_options_keys.c" />
+    <ClCompile Include="..\..\ui\ui_options_screen.c" />
+    <ClCompile Include="..\..\ui\ui_options_sound.c" />
+    <ClCompile Include="..\..\ui\ui_quit.c" />
+    <ClCompile Include="..\..\ui\ui_subsystem.c" />
+    <ClCompile Include="..\..\ui\ui_video.c" />
+    <ClCompile Include="..\..\ui\ui_video_advanced.c" />
+    <ClCompile Include="..\..\win32\conproc.c" />
+    <ClCompile Include="..\..\win32\glw_imp.c" />
+    <ClCompile Include="..\..\win32\in_win.c" />
+    <ClCompile Include="..\..\win32\net_wins.c" />
+    <ClCompile Include="..\..\win32\qgl_win.c" />
+    <ClCompile Include="..\..\win32\q_shwin.c" />
+    <ClCompile Include="..\..\win32\snd_win.c" />
+    <ClCompile Include="..\..\win32\sys_console.c" />
+    <ClCompile Include="..\..\win32\sys_win.c" />
+    <ClCompile Include="..\..\win32\vid_dll.c" />
+    <ClCompile Include="..\..\client\cl_cin.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_cinematic.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_console.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_download.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_effects.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_ents.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_event.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_http.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_input.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_inv.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_keys.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_lights.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_loc.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_main.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_parse.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_particle.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_pred.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_screen.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_string.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_tempent.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_utils.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client\cl_view.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\win32\cd_win.c">
+      <Filter>audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\client\anorms.h" />
+    <ClInclude Include="..\..\client\cinematic.h" />
+    <ClInclude Include="..\..\client\console.h" />
+    <ClInclude Include="..\..\client\input.h" />
+    <ClInclude Include="..\..\client\keys.h" />
+    <ClInclude Include="..\..\client\particles.h" />
+    <ClInclude Include="..\..\client\q2palette.h" />
+    <ClInclude Include="..\..\client\ref.h" />
+    <ClInclude Include="..\..\client\screen.h" />
+    <ClInclude Include="..\..\client\snd_loc.h" />
+    <ClInclude Include="..\..\client\snd_ogg.h" />
+    <ClInclude Include="..\..\client\sound.h" />
+    <ClInclude Include="..\..\client\vid.h" />
+    <ClInclude Include="..\..\game\game.h" />
+    <ClInclude Include="..\..\game\q_shared.h" />
+    <ClInclude Include="..\..\qcommon\bspfile.h" />
+    <ClInclude Include="..\..\qcommon\qcommon.h" />
+    <ClInclude Include="..\..\qcommon\qfiles.h" />
+    <ClInclude Include="..\..\qcommon\vid_modes.h" />
+    <ClInclude Include="..\..\qcommon\vid_resolutions.h" />
+    <ClInclude Include="..\..\qcommon\wildcard.h" />
+    <ClInclude Include="..\..\renderer\anorms.h" />
+    <ClInclude Include="..\..\renderer\anormtab.h" />
+    <ClInclude Include="..\..\renderer\glext.h" />
+    <ClInclude Include="..\..\renderer\qgl.h" />
+    <ClInclude Include="..\..\renderer\r_alias.h" />
+    <ClInclude Include="..\..\renderer\r_local.h" />
+    <ClInclude Include="..\..\renderer\r_model.h" />
+    <ClInclude Include="..\..\renderer\vlights.h" />
+    <ClInclude Include="..\..\renderer\warpsin.h" />
+    <ClInclude Include="..\..\server\server.h" />
+    <ClInclude Include="..\..\ui\ui_local.h" />
+    <ClInclude Include="..\..\win32\conproc.h" />
+    <ClInclude Include="..\..\win32\winnewerror.h" />
+    <ClInclude Include="..\..\win32\winquake.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ver.h" />
+    <ClInclude Include="..\..\client\client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client\cdaudio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kingpin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\win32\Kingpin.ico" />
+    <Image Include="..\..\win32\q2.ico" />
+    <Image Include="..\..\win32\q2mp1.ico" />
+    <Image Include="..\..\win32\q2mp2.ico" />
+    <Image Include="..\..\win32\startup.bmp" />
+    <Image Include="..\..\win32\startup2.bmp" />
+    <Image Include="..\..\win32\startup2beta.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{2e9a3b40-5ffa-4652-9cfd-9f1e12da7311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{4a8e0c8a-9d8f-4c8c-8135-d67247184970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
