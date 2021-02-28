@@ -83,7 +83,7 @@
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Debug\kingpin.tlb</TypeLibraryName>
+      <TypeLibraryName>...\..\client\Debug\kingpin.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <TargetEnvironment>Win32</TargetEnvironment>
     </Midl>
@@ -125,7 +125,7 @@
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\release\kingpin.tlb</TypeLibraryName>
+      <TypeLibraryName>...\..\client\Release\kingpin.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <TargetEnvironment>Win32</TargetEnvironment>
     </Midl>
@@ -270,7 +270,6 @@
     <ClInclude Include="..\..\client\vid.h" />
     <ClInclude Include="..\..\game\game.h" />
     <ClInclude Include="..\..\game\q_shared.h" />
-    <ClInclude Include="..\..\qcommon\bspfile.h" />
     <ClInclude Include="..\..\qcommon\qcommon.h" />
     <ClInclude Include="..\..\qcommon\qfiles.h" />
     <ClInclude Include="..\..\qcommon\vid_modes.h" />
@@ -298,12 +297,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\win32\Kingpin.ico" />
-    <Image Include="..\..\win32\q2.ico" />
-    <Image Include="..\..\win32\q2mp1.ico" />
-    <Image Include="..\..\win32\q2mp2.ico" />
-    <Image Include="..\..\win32\startup.bmp" />
-    <Image Include="..\..\win32\startup2.bmp" />
-    <Image Include="..\..\win32\startup2beta.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
